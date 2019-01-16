@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    font-family: verdana;
+    background: lightsteelblue;
+
+}
+body{
+    background: lightcyan;
+    width: 70%;
+    display:table;
+    margin:auto;
+    height: 100%;
+}
+nav>ul>li{
+    list-style: none;
+    float:left;
+}
+
+nav>ul>li>a{
+    background: darkblue;
+    color:white;
+    padding: 10px 20px;
+    text-decoration:none;
+    border-radius:10px 10px 0 0;
+    transition: all 0.5s;
+
+
+}
+nav{
+    padding-top:20px;
+    display:table;
+    margin:0 auto;
+}
+nav>ul>li>a:hover{
+    background: lightgray;
+    color:darkblue
+}
+.submenu{
+    margin-top: 10px;
+    position: absolute;
+ 
+}
+.submenu li{
+    border-bottom: 1px solid white;
+    list-style: none;
+
+}
+.submenu li a{
+    display: block;
+    background: darkgray;
+    color: darkblue;
+    padding:5px 25px;
+}
+.submenu li a:hover{
+    background-color:darkgray;
+    color:white;
+    
+}
+
+incearca alta varianta!
+submenu{
+    height:0;
+    transition:max-height 0.25s ease-in;
+    overflow: hidden;
+}
+nav li:hover .submenu{
+   height : 500px;
+   transition: max-height 0.25s ease-in;
+}

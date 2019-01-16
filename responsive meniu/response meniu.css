@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    width: 100%;
+    height: 100%;
+    font-family: verdana;
+    background: black;
+}
+a{
+    color: lightgray;
+    background: withe;
+    text-decoration: none;
+}
+header{
+    background: rgb(0, 132, 255);
+}

@@ -1,0 +1,16 @@
+/*tr {border:2px solid green;
+padding: 20 px;}
+table{border-collapse:collapse;
+	width: 500px;
+}
+td{border:2px solid green;
+padding: 20 px;}
+*/
+
+tr {border:2px solid green;
+padding: 20 px;}
+table{border-collapse:collapse;
+	width: 500px;
+}
+td, th{border:2px solid green;
+padding: 20 px;}
